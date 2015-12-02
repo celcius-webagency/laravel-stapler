@@ -9,9 +9,15 @@
             "email": "tandrewbennett@hotmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/Users/joren/Code/stapler"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "codesleeve/stapler": "1.0.*",
+        "codesleeve/stapler": "dev-queue",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
