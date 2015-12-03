@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "/Users/joren/Code/stapler"
+            "url": "https://github.com/jorenvanhee/stapler"
         }
     ],
     "require": {
