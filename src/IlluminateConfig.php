@@ -2,10 +2,10 @@
 
 namespace Codesleeve\LaravelStapler;
 
-use Codesleeve\Stapler\Config\ConfigurableInterface;
-use Illuminate\Config\Repository;
+use Codesleeve\Stapler\Interfaces\Config;
+use Illuminate\Contracts\Config\Repository;
 
-class IlluminateConfig implements ConfigurableInterface
+class IlluminateConfig implements Config
 {
     /**
      * An instance of Laravel's config class.
